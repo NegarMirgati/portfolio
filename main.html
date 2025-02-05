@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negar "Niki" Mirgati - Portfolio</title>
+    <style>
+        /* Color Palette */
+        :root {
+            --primary-color: #2c3e50; /* Dark Blue */
+            --secondary-color: #fffff; 
+            --accent-color: #7a892c; /* Ebony */
+            --background-color: #ecf0f1; /* Light Gray */
+            --text-color: #2c3e50; /* Dark Blue */
+            --header-background-color: #72788d; /* Darker Blue */
+            --footer-background-color: #72788d; /* Dark Blue */
+            --project-background: #ffffff; /* White */
+            --tag-background: #e3d7ff; /* Teal */
+            --tag-text-color: #000000; /* White */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+        header {
+            background-color: var(--header-background-color);
+            color: var(--tag-text-color);
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: var(--project-background);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .category {
+            margin-bottom: 40px;
+        }
+        .category h2 {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 5px;
+            color: var(--primary-color);
+        }
+        .project {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            background-color: var(--project-background);
+        }
+        .project h3 {
+            margin: 0;
+            color: var(--primary-color);
+        }
+        .project p {
+            margin: 5px 0;
+        }
+        .tags {
+            margin: 10px 0;
+        }
+        .tag-category {
+            font-weight: bold;
+            margin-top: 10px;
+            color: var(--secondary-color);
+        }
+        .tag {
+            display: inline-block;
+            background-color: var(--tag-background);
+            color: var(--tag-text-color);
+            padding: 5px 10px;
+            margin: 5px 5px 5px 0;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        footer {
+            background-color: var(--footer-background-color);
+            color: var(--tag-text-color);
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .github-button {
+            display: inline-flex;
+            align-items: center;
+            background-color: #7a82c9; /* Custom color */
+            color: #ffffff; /* White text */
+            border: none;
+            padding: 5px 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+}
+
+        .github-button:hover {
+            background-color: #5e66a3; /* Slightly darker shade for hover effect */
+        }
+
+        .github-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+            fill: currentColor;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Negar "Niki" Mirgati</h1>
+        <p>M.Sc Graduate @ University of Alberta | Interested in AI & Software Development</p>
+    </header>
+    <div class="container">
+        <div class="category">
+            <h2>Software Development Projects</h2>
+            <!-- Full-Stack Job Marketplace Platform Project -->
+            <div class="project">
+                <h3>Full-Stack Job Marketplace Platform</h3>
+                <p>This project is a full-stack web platform designed as a job marketplace for developers, where freelancers can bid on projects based on their skills and qualifications. The frontend was initially built using HTML, CSS, and Bootstrap, then transitioned to React for a more dynamic and interactive user experience. The backend was developed with Java, using Spring Boot and JSP for server-side rendering before migrating to a RESTful API architecture. The system includes authentication with JWT, database integration with MySQL, and real-time project updates. The project also incorporates Docker for containerization, ensuring deployment efficiency in production environments. With features like automated auctions, skill endorsements, and API standardization, this project showcases my ability to design and implement a scalable, secure, and high-performance web application from concept to deployment.</p>
+                <div class="tags">
+                    <div class="tag-category">Topics:</div>
+                    <span class="tag">Full-Stack Development</span>
+                    <span class="tag">Web Application</span>
+                    <span class="tag">Job Marketplace</span>
+                    <span class="tag">Freelancing Platform</span>
+                    <span class="tag">Authentication</span>
+                    <span class="tag">Real-Time Updates</span>
+                    <span class="tag">API Development</span>
+                    <span class="tag">Containerization</span>
+                </div>
+                <div class="tags">
+                    <div class="tag-category">Frontend Technologies:</div>
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">Bootstrap</span>
+                    <span class="tag">React</span>
+                </div>
+                <div class="tags">
+                    <div class="tag-category">Backend Technologies:</div>
+                    <span class="tag">Java</span>
+                    <span class="tag">Spring Boot</span>
+                    <span class="tag">JSP</span>
+                    <span class="tag">RESTful API</span>
+                </div>
+                <div class="tags">
+                    <div class="tag-category">Database:</div>
+                    <span class="tag">MySQL</span>
+                </div>
+                <div class="tags">
+                    <div class="tag-category">Other Technologies:</div>
+                    <span class="tag">JWT</span>
+                    <span class="tag">Docker</span>
+                </div>
+                <p>
+                    <button class="github-button" onclick="window.open('https://github.com/NegarMirgati/JobOonja_Webapp', '_blank')">
+                        <svg class="github-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg>
+                        View on GitHub
+                    </button>
+                </p>
+            </div>
+            <!-- Add more Software Development projects as needed -->
+        </div>
+        <div class="category">
+            <h2>Data Science and AI Projects</h2>
+            <!-- Data Compression and Error Correction Techniques Project -->
+            <div class="project">
+                <h3>Data Compression and Error Correction Techniques</h3>
+                <p>This project showcases my implementation of Huffman coding, convolutional coding, and the Viterbi algorithm, key techniques in data compression and error correction. Huffman coding optimizes data storage by reducing redundancy, while convolutional coding enhances the reliability of transmitted data. The Viterbi algorithm is employed for efficient error detection and correction. Through Python-based implementations, this project demonstrates my ability to apply fundamental concepts in data communication, signal processing, and algorithm optimization. It highlights my expertise in developing efficient, real-world solutions for encoding and error detection in digital systems.</p>
+                <div class="tags">
+                    <div class="tag-category">Topics:</div>
+                    <span class="tag">Data Compression</span>
+                    <span class="tag">Error Correction</span>
+                    <span class="tag">Huffman Coding</span>
+                    <span class="tag">Convolutional Coding</span>
+                    <span class="tag">Viterbi Algorithm</span>
+                </div>
+                <div class="tags">
+                    <div class="tag-category">Programming Language:</div>
+                    <span class="tag">Python</span>
+                </div>
+                <p>
+                    <button class="github-button" onclick="window.open('https://github.com/NegarMirgati/CodingAndErrorDetection', '_blank')">
+                        <svg class="github-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg>
+                        View on GitHub
+                    </button>
+                </p>
+            </div>
+            <!-- Add more Data Science and AI projects as needed -->
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Negar "Niki" Mirgati</p>
+    </footer>
+</body>
+
+
+ 
