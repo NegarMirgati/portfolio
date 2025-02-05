@@ -32,6 +32,24 @@
             text-align: center;
             padding: 20px;
         }
+        nav {
+            background-color: #7a89c2;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
         .container {
             max-width: 900px;
             margin: 20px auto;
@@ -124,7 +142,11 @@
         <h1>Negar "Niki" Mirgati</h1>
         <p>M.Sc Graduate @ University of Alberta | Interested in AI & Software Development</p>
     </header>
-    <div class="container">
+    <nav>
+        <a href="#software-development">Software Development Projects</a>
+        <a href="#ai-ml">AI/ML Projects</a>
+    </nav>
+    <div class="container" id="software-development">
         <div class="category">
             <h2>Software Development Projects</h2>
             <!-- Full-Stack Job Marketplace Platform Project -->
@@ -176,7 +198,7 @@
             </div>
             <!-- Add more Software Development projects as needed -->
         </div>
-        <div class="category">
+        <div class="category" id="ai-ml">
             <h2>Data Science and AI Projects</h2>
             <!-- Data Compression and Error Correction Techniques Project -->
             <div class="project">
