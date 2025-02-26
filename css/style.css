@@ -125,3 +125,14 @@ a:hover {
     margin-right: 8px;
     fill: currentColor;
 }
+
+.project-image {
+    width: 80%; /* Adjust width as needed */
+    max-width: 500px; /* Ensures images don't get too large */
+    height: auto; /* Keeps aspect ratio */
+    float: center;
+    display: block;
+    margin: 10px auto; /* Centers the image */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15); /* Optional: Subtle shadow for better appearance */
+}
